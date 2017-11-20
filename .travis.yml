@@ -1,7 +1,6 @@
 language: python
 python:
 - 3.6
-- nightly
 script:
 - python ./knowledge/manage.py test share
 deploy:
