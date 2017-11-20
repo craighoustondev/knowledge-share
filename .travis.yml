@@ -1,6 +1,9 @@
-  language: python
-  python:
-    - 3.6
-    - nightly
-  script:
-    - python ./knowledge/manage.py test share
+language: python
+python:
+- 3.6
+- nightly
+script:
+- python ./knowledge/manage.py test share
+deploy:
+  api_key:
+    secure: JX1n/Mt4XkQMDVXiYbqirUwF62UHADaPmCT+I+gRNZ3R6gpKdxf4LVw52wvzsK4uurcv/dsFLG7ySAclu5z2+mXFthpxEdmJ+Jet0QC40lwEfe3xxgFzA1j6jiH/RUbAKfACWfGdHq7/WPVYNtNpep294afMNJEMj6QVmlz0+c90ialSojwS6d505xCwFhpiuv8BtDnBdMSTdfsWM01jyQwlMBCWjgUy5hYEtaZfgGAlhoMVJRQQwA6b/abaMq9BvYw8wZzLpw/jTWptHDkiZzMV/VCZqvTCVNO+r0wLX2xBlmrnthl5ZKBZ1H5dUGAaghWhp/mGJxSRb8ck74YqgZsd82wVvKKSxGiRgM//K8Wnz42A6o6vvBYElvQY8tlLEn5/DvQojUo4aGa4XkY4QWejQR2BDP6xrxp1UNWBE5CrZhw8AInvqNS8OGVDEGqGA3MfTetLBG2aA5Q2hMyrCWTAwwHOFXNQONkJCSjjjDAU7Qa1cPahLkXR76PH6upopImYb5cxsD+vJJEWKd2/cyQe5DKuFYiOGg7m1EP84TYndbXNYH+dwURIgwxw2Rrob3/GuPn95EEPPO+8XFyYXHaCl+Qp3yrHradYt73+Vieo29fwVvXLlGavWKNFlYnokVDhuOpb3NGYRS0tlteyHnzgjtHthY8N/rpp3ZJpOls=
